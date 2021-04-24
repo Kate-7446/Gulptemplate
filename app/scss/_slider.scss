@@ -41,6 +41,10 @@
 	text-align: center;  
 	max-width: 600px;
 	height: 280px;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .text-slide p{
 	color: white;
@@ -95,6 +99,7 @@
 	justify-content: left;
 	left: 130px;
 	color: azure;
+	font-size: 90px;
 	
 }
 .swiper-button-next {
@@ -103,4 +108,7 @@
 	justify-content: right;
 	right: 130px;
 	color: azure;
+	font-size: 90px;
 }
+
+
