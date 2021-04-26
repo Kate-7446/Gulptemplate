@@ -1,0 +1,45 @@
+.projects {
+    padding: 75px 0 80px;
+    
+    &__tabs {
+        display: flex;
+        align-items: center;
+        justify-content: center;  
+    }
+}
+.projects__tabs li {
+    font-size: 17px;
+    color: $font_color;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.tabs__item {
+  max-width: 200px;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+.tabs__item img {
+  max-width: 100px;
+  height: auto;
+  margin: 0 0 45px;
+}
+.tabs__item p {
+  font-size: 17px;
+  margin: 0 0 55px;
+}
+.tabs__item h5 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 25px;
+  margin: 0 0 50px;
+
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}

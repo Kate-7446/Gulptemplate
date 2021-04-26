@@ -1,0 +1,26 @@
+.ideas {
+    padding: 75px 0 0;
+    background: $grey_bg;
+
+    &__container {
+    @extend .container;
+    padding: 0;
+    }
+    &__footer {
+        padding: 45px 0 45px;
+        background: rgb(34,28,26);
+        background: linear-gradient(90deg, rgba(34,28,26,1) 0%, rgba(58,41,33,1) 50%, rgba(76,51,38,1) 93%);
+        
+
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+        }
+    }
+}
+.container {
+    padding: 0 30px;
+    text-align: center;
+}
