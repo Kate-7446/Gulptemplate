@@ -14,5 +14,6 @@ $(document).ready(function() {
             prevEl: '.slider__prev',
         }
     });
+    $( ".projects__tabs" ).tabs();
 }); 
 
